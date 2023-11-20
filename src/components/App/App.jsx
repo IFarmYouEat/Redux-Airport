@@ -1,13 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
+import Form from '../Form/Form.jsx';
+import Table from '../Table/Table.jsx';
 
 function App() {
 
   return (
     <div>
       <h1>Redux Airport</h1>
-      <input placeholder='Airline Name' />
-      <button>Add Airline</button>
-      <table>{/* Airlines should be listed here */}</table>
+      <Form />
+      <Table />
     </div>
   );
 }
